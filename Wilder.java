@@ -23,14 +23,14 @@ public class Wilder {
 			return present;
 		}
 
-		public void whoAmI(){
+		public String whoAmI(){
 		
 			if(present==true){
 
-			System.out.println("My name is " +firstname+ " and Iam present");
+			return "My name is " +firstname+ " and Iam present";
 			}
 			else{
-			System.out.println("My name is " +firstname+ " and Iam not present");
+			return "My name is " +firstname+ " and Iam not present";
 			}
 		}
 }

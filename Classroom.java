@@ -8,8 +8,8 @@ public class Classroom {
 		WilderAObject.setPresent(true);
 		WilderBObject.setName("Christoph");
 		WilderBObject.setPresent(false);
-		WilderAObject.whoAmI();
-		WilderBObject.whoAmI();
+		System.out.println(WilderAObject.whoAmI());
+		System.out.println(WilderBObject.whoAmI());
 				
 	}
 }
