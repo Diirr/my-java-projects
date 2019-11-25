@@ -8,6 +8,12 @@ public class Wilder {
 			this.firstname=name;
 		}
 
+		public Wilder(String name, boolean avail){
+			
+			this.firstname=name;
+			this.present=avail;
+		}
+
 		public void setPresent(boolean isPresent){
 			
 			this.present=isPresent;
