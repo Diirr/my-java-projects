@@ -2,7 +2,7 @@ public class Hangar{
 	
 	public static void main(String[] args){
 		
-		Car bmw = new Car ("BMW");
+		Vehicle bmw = new Car ("BMW");
 		bmw.setKilometers(20000);
 		System.out.println(bmw.doStuff());
 

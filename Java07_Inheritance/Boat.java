@@ -7,7 +7,7 @@ public class Boat extends Vehicle{
 
         @Override
         public String doStuff(){
-                return "I am " + brand + " and I go glug glug! my number of kilometers is: "+kilometers+ "km";
+                return "I am " + this.getBrand() + " and I go glug glug! my number of kilometers is: "+this.getKilometers()+ "km";
         }
 
 }
